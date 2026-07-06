@@ -1,0 +1,10 @@
+<loadFolders>
+  <v1.6>
+    <li>/</li>
+
+    <!-- General -->
+    <li IfModActive="vanillaracesexpanded.genie">Mods and Shit/VRE Genie</li>
+    <li IfModActive="OskarPotocki.VanillaFactionsExpanded.Core">Mods and Shit/VE Brewing</li>
+
+  </v1.6>
+</loadFolders>

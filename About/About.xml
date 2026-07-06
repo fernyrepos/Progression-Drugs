@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Progression: Drugs</name>
+	<author>ferny</author>
+	<packageId>ferny.progressiondrugs</packageId>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<description>Research overhaul for drugs.</description>
+	<loadAfter>
+		<li>Ludeon.Rimworld</li>
+		<li>Ludeon.Rimworld.Royalty</li>
+		<li>Ludeon.Rimworld.Ideology</li>
+		<li>Ludeon.Rimworld.Biotech</li>
+		<li>Ludeon.Rimworld.Anomaly</li>
+		<li>Ludeon.Rimworld.Odyssey</li>
+		<li>vanillaracesexpanded.genie</li>
+		<li>veterano.mythicages.megafaunabestiary</li>
+	</loadAfter>
+	<modDependencies>
+		<li>
+			<packageId>ferny.ReplaceLib</packageId>
+			<displayName>ReplaceLib</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3417393194</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+</ModMetaData>

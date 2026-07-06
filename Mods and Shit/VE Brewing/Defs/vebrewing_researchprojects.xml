@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Cigarettes</defName>
+		<label>Cigarettes</label>
+		<description>Begin producing a drug that offers a brief euphoria as well as mental stimulation, and is very addictive. The pungent odor is generally disliked at first, but becomes much more pleasurable as the smoker becomes more addicted. Can be crafted without equipment, at a crafting spot.</description>
+		<baseCost>400</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>25.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<prerequisites>
+			<li>DrugProduction</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Cigars</defName>
+		<label>Cigars</label>
+		<description>Begin producing a lavish drug that offers a brief euphoria as well as mental stimulation, and is very addictive. The pungent odor is generally disliked at first, but becomes much more pleasurable as the smoker becomes more addicted.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>25.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<prerequisites>
+			<li>Ferny_Cigarettes</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+</Defs>
