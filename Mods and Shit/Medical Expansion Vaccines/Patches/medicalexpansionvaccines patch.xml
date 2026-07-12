@@ -309,7 +309,7 @@
     </mods>
     <match Class="PatchOperationSequence">
       <operations>
-        <Operation Class="PatchOperationConditional">
+        <li Class="PatchOperationConditional">
           <xpath>/Defs/RecipeDef[defName="Make_Vaccine_BloodRot"]/researchPrerequisite</xpath>
           <match Class="PatchOperationReplace">
             <xpath>/Defs/RecipeDef[defName="Make_Vaccine_BloodRot"]/researchPrerequisite</xpath>
@@ -323,8 +323,8 @@
               <researchPrerequisite>Ferny_BloodRotVaccine</researchPrerequisite>
             </value>
           </nomatch>
-        </Operation>
-        <Operation Class="PatchOperationConditional">
+        </li>
+        <li Class="PatchOperationConditional">
           <xpath>/Defs/RecipeDef[defName="Make_Vaccine_BloodRot_x5"]/researchPrerequisite</xpath>
           <match Class="PatchOperationReplace">
             <xpath>/Defs/RecipeDef[defName="Make_Vaccine_BloodRot_x5"]/researchPrerequisite</xpath>
@@ -338,8 +338,8 @@
               <researchPrerequisite>Ferny_BloodRotVaccine</researchPrerequisite>
             </value>
           </nomatch>
-        </Operation>
-        <Operation Class="PatchOperationConditional">
+        </li>
+        <li Class="PatchOperationConditional">
           <xpath>/Defs/RecipeDef[defName="Make_Vaccine_BloodRot_x10"]/researchPrerequisite</xpath>
           <match Class="PatchOperationReplace">
             <xpath>/Defs/RecipeDef[defName="Make_Vaccine_BloodRot_x10"]/researchPrerequisite</xpath>
@@ -353,7 +353,7 @@
               <researchPrerequisite>Ferny_BloodRotVaccine</researchPrerequisite>
             </value>
           </nomatch>
-        </Operation>
+        </li>
       </operations>
     </match>
   </Operation>
@@ -363,7 +363,7 @@
     </mods>
     <match Class="PatchOperationSequence">
       <operations>
-        <Operation Class="PatchOperationConditional">
+        <li Class="PatchOperationConditional">
           <xpath>/Defs/RecipeDef[defName="Make_Vaccine_InfantIllness"]/researchPrerequisite</xpath>
           <match Class="PatchOperationReplace">
             <xpath>/Defs/RecipeDef[defName="Make_Vaccine_InfantIllness"]/researchPrerequisite</xpath>
@@ -377,8 +377,8 @@
               <researchPrerequisite>Ferny_InfantIllnessVaccine</researchPrerequisite>
             </value>
           </nomatch>
-        </Operation>
-        <Operation Class="PatchOperationConditional">
+        </li>
+        <li Class="PatchOperationConditional">
           <xpath>/Defs/RecipeDef[defName="Make_Vaccine_InfantIllness_x5"]/researchPrerequisite</xpath>
           <match Class="PatchOperationReplace">
             <xpath>/Defs/RecipeDef[defName="Make_Vaccine_InfantIllness_x5"]/researchPrerequisite</xpath>
@@ -392,8 +392,8 @@
               <researchPrerequisite>Ferny_InfantIllnessVaccine</researchPrerequisite>
             </value>
           </nomatch>
-        </Operation>
-        <Operation Class="PatchOperationConditional">
+        </li>
+        <li Class="PatchOperationConditional">
           <xpath>/Defs/RecipeDef[defName="Make_Vaccine_InfantIllness_x10"]/researchPrerequisite</xpath>
           <match Class="PatchOperationReplace">
             <xpath>/Defs/RecipeDef[defName="Make_Vaccine_InfantIllness_x10"]/researchPrerequisite</xpath>
@@ -407,7 +407,7 @@
               <researchPrerequisite>Ferny_InfantIllnessVaccine</researchPrerequisite>
             </value>
           </nomatch>
-        </Operation>
+        </li>
       </operations>
     </match>
   </Operation>
@@ -417,7 +417,7 @@
     </mods>
     <match Class="PatchOperationSequence">
       <operations>
-        <Operation Class="PatchOperationConditional">
+        <li Class="PatchOperationConditional">
           <xpath>/Defs/RecipeDef[defName="Make_Vaccine_Necroa"]/researchPrerequisite</xpath>
           <match Class="PatchOperationReplace">
             <xpath>/Defs/RecipeDef[defName="Make_Vaccine_Necroa"]/researchPrerequisite</xpath>
@@ -431,8 +431,8 @@
               <researchPrerequisite>Ferny_NecroaVaccine</researchPrerequisite>
             </value>
           </nomatch>
-        </Operation>
-        <Operation Class="PatchOperationConditional">
+        </li>
+        <li Class="PatchOperationConditional">
           <xpath>/Defs/RecipeDef[defName="Make_Vaccine_Necroa_x5"]/researchPrerequisite</xpath>
           <match Class="PatchOperationReplace">
             <xpath>/Defs/RecipeDef[defName="Make_Vaccine_Necroa_x5"]/researchPrerequisite</xpath>
@@ -446,8 +446,8 @@
               <researchPrerequisite>Ferny_NecroaVaccine</researchPrerequisite>
             </value>
           </nomatch>
-        </Operation>
-        <Operation Class="PatchOperationConditional">
+        </li>
+        <li Class="PatchOperationConditional">
           <xpath>/Defs/RecipeDef[defName="Make_Vaccine_Necroa_x10"]/researchPrerequisite</xpath>
           <match Class="PatchOperationReplace">
             <xpath>/Defs/RecipeDef[defName="Make_Vaccine_Necroa_x10"]/researchPrerequisite</xpath>
@@ -461,7 +461,7 @@
               <researchPrerequisite>Ferny_NecroaVaccine</researchPrerequisite>
             </value>
           </nomatch>
-        </Operation>
+        </li>
       </operations>
     </match>
   </Operation>
