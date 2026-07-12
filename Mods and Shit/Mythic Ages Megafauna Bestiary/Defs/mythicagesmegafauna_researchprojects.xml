@@ -5,7 +5,7 @@
 		<defName>Ferny_SkyfeatherPipe</defName>
 		<label>Skyfeather pipe</label>
 		<description>Craft a hand-carved pipe packed with the oiled feathers of the legendary Harpeagle.</description>
-		<baseCost>300</baseCost>
+		<baseCost>500</baseCost>
 		<techLevel>Neolithic</techLevel>
 		<researchViewX>25.00</researchViewX>
 		<researchViewY>3.00</researchViewY>
@@ -17,13 +17,26 @@
 	<ResearchProjectDef>
 		<defName>Ferny_MossmireDraught</defName>
 		<label>Mossmire draught</label>
-		<description>Begin producing a thick, potent green draught brewed from mossmire milk and rare forest roots. Its use traces back to the rites of elder shamans, who claimed it opened the body to the will of the spirits. Those who drank it emerged from their wounds faster, eyes glazed with fevered strength but not without a price. The forest does not grant gifts freely. The brew burns hot, clouds the mind, and leaves a weight in the blood that lingers for days.</description>
+		<description>Produce a thick, potent green draught brewed from mossmire milk and rare forest roots.</description>
 		<baseCost>500</baseCost>
 		<techLevel>Medieval</techLevel>
-		<researchViewX>25.00</researchViewX>
+		<researchViewX>26.00</researchViewX>
 		<researchViewY>3.00</researchViewY>
 		<prerequisites>
-			<li>Ferny_Cigarettes</li>
+			<li MayRequire="dankpyon.medieval.overhaul">DankPyon_Alchemy</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_SivaDustIvory</defName>
+		<label>Sivadust ivory</label>
+		<description>Produce a refined powder made from the ossified horn of the Sivatherium that slows the mind and heart, easing tension and bringing a gentle sense of euphoria.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>27.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<prerequisites>
+			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Hunting</li>
 		</prerequisites>
 	</ResearchProjectDef>
 

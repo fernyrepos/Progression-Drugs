@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>Ferny_ApothecarysMiracle</defName>
+		<label>apothecary's miracle</label>
+		<description>Produce apothecary's miracle and its mixture, a legendary elixir renowned for rapidly accelerating recovery and immunity.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>25.00</researchViewX>
+		<researchViewY>15.00</researchViewY>
+		<prerequisites>
+			<li>DankPyon_Alchemy</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_BattleElixir</defName>
+		<label>battle elixir</label>
+		<description>Produce battle elixir and its mixture, a potent concoction that significantly boosts combat abilities and psyfocus.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>26.00</researchViewX>
+		<researchViewY>15.00</researchViewY>
+		<prerequisites>
+			<li>Ferny_HappyPowder</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_HappyPowder</defName>
+		<label>happy powder</label>
+		<description>Produce happy powder and its mixture, a recreational substance that induces an intense euphoric high.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>27.00</researchViewX>
+		<researchViewY>15.00</researchViewY>
+		<prerequisites>
+			<li>DankPyon_Alchemy</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_HerbalExtract</defName>
+		<label>herbal extract</label>
+		<description>Produce concentrated herbal essence extracted by grinding multiple raw herbs.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>28.00</researchViewX>
+		<researchViewY>15.00</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Luhix</defName>
+		<label>luhix</label>
+		<description>Produce luhix and its mixture, a rare substance that enhances memory, learning capacity, and psyfocus.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>29.00</researchViewX>
+		<researchViewY>15.00</researchViewY>
+		<prerequisites>
+			<li>DankPyon_Alchemy</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_VigorPill</defName>
+		<label>vigor pill</label>
+		<description>Produce vigor pills and their mixture, allowing users to work for extended periods without getting tired.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>30.00</researchViewX>
+		<researchViewY>15.00</researchViewY>
+		<prerequisites>
+			<li>DankPyon_Alchemy</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Paregoric</defName>
+		<label>paregoric</label>
+		<description>Produce paregoric and its mixture, a potent tincture for pain relief and increased healing.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>31.00</researchViewX>
+		<researchViewY>15.00</researchViewY>
+		<prerequisites>
+			<li>DankPyon_Alchemy</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_PotionOfKnowledge</defName>
+		<label>potion of knowledge</label>
+		<description>Produce potions of knowledge and their mixture, drawing forth knowledge to give the consumer greater ability at a skill.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>32.00</researchViewX>
+		<researchViewY>15.00</researchViewY>
+		<prerequisites>
+			<li>DankPyon_Alchemy</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Stardust</defName>
+		<label>stardust</label>
+		<description>Produce stardust and its mixture, greatly enhancing memory, learning capacity, and slightly increasing psyfocus.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>33.00</researchViewX>
+		<researchViewY>15.00</researchViewY>
+		<prerequisites>
+			<li>DankPyon_Alchemy</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+</Defs>

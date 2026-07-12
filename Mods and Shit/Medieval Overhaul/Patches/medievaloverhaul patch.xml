@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="DankPyon_Miracle"]/recipeMaker/researchPrerequisite</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="DankPyon_Miracle"]/recipeMaker/researchPrerequisite</xpath>
+			<value>
+				<researchPrerequisite>Ferny_ApothecarysMiracle</researchPrerequisite>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="DankPyon_Miracle"]/recipeMaker</xpath>
+			<value>
+				<researchPrerequisite>Ferny_ApothecarysMiracle</researchPrerequisite>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="DankPyon_Mixture_Miracle"]</xpath>
+		<value>
+			<recipeMaker>
+				<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+				<workSkill>Intellectual</workSkill>
+				<effectWorking>Cook</effectWorking>
+				<soundWorking>Recipe_CookMeal</soundWorking>
+				<bulkRecipeCount>3</bulkRecipeCount>
+				<researchPrerequisite>Ferny_ApothecarysMiracle</researchPrerequisite>
+				<recipeUsers>
+					<li>DankPyon_AlchemyBench</li>
+				</recipeUsers>
+			</recipeMaker>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="DankPyon_BattleElixir"]/recipeMaker/researchPrerequisite</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="DankPyon_BattleElixir"]/recipeMaker/researchPrerequisite</xpath>
+			<value>
+				<researchPrerequisite>Ferny_BattleElixir</researchPrerequisite>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="DankPyon_BattleElixir"]/recipeMaker</xpath>
+			<value>
+				<researchPrerequisite>Ferny_BattleElixir</researchPrerequisite>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="DankPyon_Mixture_BattleElixir"]</xpath>
+		<value>
+			<recipeMaker>
+				<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+				<workSkill>Intellectual</workSkill>
+				<effectWorking>Cook</effectWorking>
+				<soundWorking>Recipe_CookMeal</soundWorking>
+				<bulkRecipeCount>3</bulkRecipeCount>
+				<researchPrerequisite>Ferny_BattleElixir</researchPrerequisite>
+				<recipeUsers>
+					<li>DankPyon_AlchemyBench</li>
+				</recipeUsers>
+			</recipeMaker>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="DankPyon_HappyPowder"]/recipeMaker/researchPrerequisite</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="DankPyon_HappyPowder"]/recipeMaker/researchPrerequisite</xpath>
+			<value>
+				<researchPrerequisite>Ferny_HappyPowder</researchPrerequisite>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="DankPyon_HappyPowder"]/recipeMaker</xpath>
+			<value>
+				<researchPrerequisite>Ferny_HappyPowder</researchPrerequisite>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="DankPyon_Mixture_HappyPowder"]</xpath>
+		<value>
+			<recipeMaker>
+				<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+				<workSkill>Intellectual</workSkill>
+				<effectWorking>Cook</effectWorking>
+				<soundWorking>Recipe_CookMeal</soundWorking>
+				<bulkRecipeCount>3</bulkRecipeCount>
+				<researchPrerequisite>Ferny_HappyPowder</researchPrerequisite>
+				<recipeUsers>
+					<li>DankPyon_AlchemyBench</li>
+				</recipeUsers>
+			</recipeMaker>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="DankPyon_Luhix"]/recipeMaker/researchPrerequisite</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="DankPyon_Luhix"]/recipeMaker/researchPrerequisite</xpath>
+			<value>
+				<researchPrerequisite>Ferny_Luhix</researchPrerequisite>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="DankPyon_Luhix"]/recipeMaker</xpath>
+			<value>
+				<researchPrerequisite>Ferny_Luhix</researchPrerequisite>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="DankPyon_Mixture_Luhix"]</xpath>
+		<value>
+			<recipeMaker>
+				<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+				<workSkill>Intellectual</workSkill>
+				<effectWorking>Cook</effectWorking>
+				<soundWorking>Recipe_CookMeal</soundWorking>
+				<bulkRecipeCount>3</bulkRecipeCount>
+				<researchPrerequisite>Ferny_Luhix</researchPrerequisite>
+				<recipeUsers>
+					<li>DankPyon_AlchemyBench</li>
+				</recipeUsers>
+			</recipeMaker>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="DankPyon_VigorPill"]/recipeMaker/researchPrerequisite</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="DankPyon_VigorPill"]/recipeMaker/researchPrerequisite</xpath>
+			<value>
+				<researchPrerequisite>Ferny_VigorPill</researchPrerequisite>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="DankPyon_VigorPill"]/recipeMaker</xpath>
+			<value>
+				<researchPrerequisite>Ferny_VigorPill</researchPrerequisite>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="DankPyon_Mixture_VigorPill"]</xpath>
+		<value>
+			<recipeMaker>
+				<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+				<workSkill>Intellectual</workSkill>
+				<effectWorking>Cook</effectWorking>
+				<soundWorking>Recipe_CookMeal</soundWorking>
+				<bulkRecipeCount>3</bulkRecipeCount>
+				<researchPrerequisite>Ferny_VigorPill</researchPrerequisite>
+				<recipeUsers>
+					<li>DankPyon_AlchemyBench</li>
+				</recipeUsers>
+			</recipeMaker>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="DankPyon_Paregoric"]/recipeMaker/researchPrerequisite</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="DankPyon_Paregoric"]/recipeMaker/researchPrerequisite</xpath>
+			<value>
+				<researchPrerequisite>Ferny_Paregoric</researchPrerequisite>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="DankPyon_Paregoric"]/recipeMaker</xpath>
+			<value>
+				<researchPrerequisite>Ferny_Paregoric</researchPrerequisite>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="DankPyon_Mixture_Paregoric"]</xpath>
+		<value>
+			<recipeMaker>
+				<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+				<workSkill>Intellectual</workSkill>
+				<effectWorking>Cook</effectWorking>
+				<soundWorking>Recipe_CookMeal</soundWorking>
+				<bulkRecipeCount>3</bulkRecipeCount>
+				<researchPrerequisite>Ferny_Paregoric</researchPrerequisite>
+				<recipeUsers>
+					<li>DankPyon_AlchemyBench</li>
+				</recipeUsers>
+			</recipeMaker>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="DankPyon_KnowledgePotion"]/recipeMaker/researchPrerequisite</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="DankPyon_KnowledgePotion"]/recipeMaker/researchPrerequisite</xpath>
+			<value>
+				<researchPrerequisite>Ferny_PotionOfKnowledge</researchPrerequisite>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="DankPyon_KnowledgePotion"]/recipeMaker</xpath>
+			<value>
+				<researchPrerequisite>Ferny_PotionOfKnowledge</researchPrerequisite>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="DankPyon_Mixture_Knowledge"]</xpath>
+		<value>
+			<recipeMaker>
+				<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+				<workSkill>Intellectual</workSkill>
+				<effectWorking>Cook</effectWorking>
+				<soundWorking>Recipe_CookMeal</soundWorking>
+				<bulkRecipeCount>3</bulkRecipeCount>
+				<researchPrerequisite>Ferny_PotionOfKnowledge</researchPrerequisite>
+				<recipeUsers>
+					<li>DankPyon_AlchemyBench</li>
+				</recipeUsers>
+			</recipeMaker>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/RecipeDef[defName="DankPyon_Make_HerbalExtract"]/researchPrerequisites</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="DankPyon_Make_HerbalExtract"]/researchPrerequisites</xpath>
+			<value>
+				<researchPrerequisites>
+					<li>Ferny_HerbalExtract</li>
+				</researchPrerequisites>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/RecipeDef[defName="DankPyon_Make_HerbalExtract"]</xpath>
+			<value>
+				<researchPrerequisites>
+					<li>Ferny_HerbalExtract</li>
+				</researchPrerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/RecipeDef[defName="DankPyon_Make_HerbalExtractBulk"]/researchPrerequisites</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="DankPyon_Make_HerbalExtractBulk"]/researchPrerequisites</xpath>
+			<value>
+				<researchPrerequisites>
+					<li>Ferny_HerbalExtract</li>
+				</researchPrerequisites>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/RecipeDef[defName="DankPyon_Make_HerbalExtractBulk"]</xpath>
+			<value>
+				<researchPrerequisites>
+					<li>Ferny_HerbalExtract</li>
+				</researchPrerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/RecipeDef[defName="DankPyon_Make_HerbalExtractBulkExtra"]/researchPrerequisites</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="DankPyon_Make_HerbalExtractBulkExtra"]/researchPrerequisites</xpath>
+			<value>
+				<researchPrerequisites>
+					<li>Ferny_HerbalExtract</li>
+				</researchPrerequisites>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/RecipeDef[defName="DankPyon_Make_HerbalExtractBulkExtra"]</xpath>
+			<value>
+				<researchPrerequisites>
+					<li>Ferny_HerbalExtract</li>
+				</researchPrerequisites>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="DankPyon_Stardust"]/recipeMaker/researchPrerequisite</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="DankPyon_Stardust"]/recipeMaker/researchPrerequisite</xpath>
+			<value>
+				<researchPrerequisite>Ferny_Stardust</researchPrerequisite>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="DankPyon_Stardust"]/recipeMaker</xpath>
+			<value>
+				<researchPrerequisite>Ferny_Stardust</researchPrerequisite>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="DankPyon_Mixture_Stardust"]</xpath>
+		<value>
+			<recipeMaker>
+				<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+				<workSkill>Intellectual</workSkill>
+				<effectWorking>Cook</effectWorking>
+				<soundWorking>Recipe_CookMeal</soundWorking>
+				<bulkRecipeCount>3</bulkRecipeCount>
+				<researchPrerequisite>Ferny_Stardust</researchPrerequisite>
+				<recipeUsers>
+					<li>DankPyon_AlchemyBench</li>
+				</recipeUsers>
+			</recipeMaker>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="DankPyon_Mixture_Stardust"]/label</xpath>
+		<!-- Original: <label>stardust</label> -->
+		<value>
+			<label>stardust mixture</label>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ResearchProjectDef[defName="DankPyon_Alchemy"]/description</xpath>
+		<!-- Original: <description>WIP. research to get advanced research table</description> -->
+		<value>
+			<description>Unlocks the alchemy workbench, a dedicated station for brewing herbal extracts, refining unusual ingredients, and preparing alchemical medicines and mixtures.</description>
+		</value>
+	</Operation>
+
+</Patch>

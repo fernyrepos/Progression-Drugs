@@ -4,7 +4,19 @@
 
     <!-- General -->
     <li IfModActive="vanillaracesexpanded.genie">Mods and Shit/VRE Genie</li>
-    <li IfModActive="OskarPotocki.VanillaFactionsExpanded.Core">Mods and Shit/VE Brewing</li>
+    <li IfModActive="vanillaexpanded.vbrewe">Mods and Shit/VE Brewing</li>
+    <li IfModActive="OskarPotocki.VFE.Medieval2">Mods and Shit/VFE Medieval 2</li>
+    <li IfModActive="veterano.mythicages.megafaunabestiary">Mods and Shit/Mythic Ages Megafauna Bestiary</li>
+    <li IfModActive="Van.Beasts">Mods and Shit/Dark Ages Beasts and Monsters</li>
+    <li IfModActive="VanillaExpanded.VGeneticsE">Mods and Shit/Vanilla Genetics Expanded</li>
+    <li IfModActive="det.sbdelights">Mods and Shit/Stoneborn Delights</li>
+    <li IfModActive="VexedTrees980.RimGnoblinsBiotech">Mods and Shit/RimGnoblins</li>
+    <li IfModActive="Matsay.ForsakenFaction">Mods and Shit/Forsaken Faction</li>
+    <li IfModActive="dankpyon.medieval.overhaul">Mods and Shit/Medieval Overhaul</li>
+    <li IfModActive="Papito.MedicinesPlus.AT">Mods and Shit/Medicines Plus</li>
+    <li IfModActive="onofre150.me.vaccines">Mods and Shit/Medical Expansion Vaccines</li>
+    <li IfModActive="onofre150.me.addictions">Mods and Shit/Medical Expansion Addiction Treatment</li>
+
 
   </v1.6>
 </loadFolders>

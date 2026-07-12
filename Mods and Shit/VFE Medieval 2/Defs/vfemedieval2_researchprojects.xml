@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>Ferny_ImmunizationDraught</defName>
+		<label>Immunization draught</label>
+		<description>Produce an amber-colored drink with tiny particles floating in it that bolsters the immune system of anyone that drinks it. While it helps them fight off sickness better, the downside is that it makes the user feel much more tired after drinking it, as well as overall makes the user get sleepy much faster than usual. The effects of the draught are strongest immediately after consumption, and then slowly fade away over the following days.</description>
+		<baseCost>500</baseCost>
+		<tab>VanillaExpanded</tab>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>3.00</researchViewX>
+		<researchViewY>0.80</researchViewY>
+		<prerequisites>
+			<li>VFEM2_Alchemy</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_StrengthDraught</defName>
+		<label>Strength draught</label>
+		<description>Produce a bold, deep red liquid. When the user drinks it, it significantly increases their physical strength, giving them the power to perform feats they normally couldn't. However, the potion also raises the user's mental break threshold, making them more prone to psychological stress. Additionally, the intense surge of strength increases the likelihood of conflicts, leading to a higher chance of social fights.</description>
+		<baseCost>500</baseCost>
+		<tab>VanillaExpanded</tab>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>4.00</researchViewX>
+		<researchViewY>0.80</researchViewY>
+		<prerequisites>
+			<li>VFEM2_Alchemy</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_EfficiencyDraught</defName>
+		<label>Efficiency draught</label>
+		<description>Produce a slate-gray liquid that when drunk, enhances the user’s global work speed and reduces their energy depletion, allowing them to work faster and longer without feeling tired. However, the intense boost in productivity comes at a significant risk, increasing the chance of a heart attack due to the strain on the body. After the potion's effects diminish, the user experiences a sharp increase in the rate at which they become sleepy, necessitating immediate rest to recover.</description>
+		<baseCost>500</baseCost>
+		<tab>VanillaExpanded</tab>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>5.00</researchViewX>
+		<researchViewY>0.80</researchViewY>
+		<prerequisites>
+			<li>VFEM2_Alchemy</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_PainkillerDraught</defName>
+		<label>Painkiller draught</label>
+		<description>Produce a pale blue liquid. When the user drinks it, it effectively reduces their sensation of pain, providing relief from discomfort and injuries. However, the sedative components of the draught also diminish the user's productivity and focus, making it harder to concentrate and complete tasks efficiently. This makes it suitable for recovery periods but less ideal when active mental or physical effort is required.</description>
+		<baseCost>500</baseCost>
+		<tab>VanillaExpanded</tab>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>6.00</researchViewX>
+		<researchViewY>0.80</researchViewY>
+		<prerequisites>
+			<li>VFEM2_Alchemy</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_TorturerDraught</defName>
+		<label>Torturer draught</label>
+		<description>Produce a dark, foreboding purple liquid. When the user drinks it, it induces severe pain, incapacitating them to the point where movement becomes impossible. For prisoners, this intense agony causes a rapid decline in their will to resist, breaking down any mental barriers they may have. In the case of slaves, the draught completely suppresses their spirit, leaving them entirely subdued. This potion is used with caution due to its extreme effects.</description>
+		<baseCost>500</baseCost>
+		<tab>VanillaExpanded</tab>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>7.00</researchViewX>
+		<researchViewY>0.80</researchViewY>
+		<prerequisites>
+			<li>VFEM2_Alchemy</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_FocusDraught</defName>
+		<label>Focus draught</label>
+		<description>Produce a crisp, energizing turquoise liquid that when drank, significantly enhances learning abilities of the user, enabling them to absorb and retain more information rapidly. Additionally, the draught increases the efficiency of eating and resting, allowing quicker nourishment and recovery. It also boosts the accumulation of psyfocus, enhancing mental clarity and psychic abilities. However, once the effects of the draught begin to fade, these enhancements reverse, leading to decreased learning capacity, slower eating and resting rates, and diminished psyfocus.</description>
+		<baseCost>500</baseCost>
+		<tab>VanillaExpanded</tab>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>3.00</researchViewX>
+		<researchViewY>1.35</researchViewY>
+		<prerequisites>
+			<li>VFEM2_Alchemy</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_FertilityDraught</defName>
+		<label>Fertility draught</label>
+		<description>Produce a gentle, rose-pink liquid. When the user drinks it, it artificially boosts their fertility, giving even those who are infertile a chance to conceive. This slight increase in fertility opens the possibility for individuals or couples struggling with infertility to become parents, focusing on enhancing natural reproductive processes.</description>
+		<baseCost>500</baseCost>
+		<tab>VanillaExpanded</tab>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>4.00</researchViewX>
+		<researchViewY>1.35</researchViewY>
+		<prerequisites>
+			<li>VFEM2_Alchemy</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_InspirationDraught</defName>
+		<label>Inspiration draught</label>
+		<description>Produce a radiant, golden-colored liquid. When the user drinks it, it provides them with mental clarity, sharpening their focus specifically on acquiring new knowledge in areas they are passionate about. However, the draught comes at the cost of diminished combat capabilities, as the user's attention is diverted away from physical prowess and towards intellectual pursuits.</description>
+		<baseCost>500</baseCost>
+		<tab>VanillaExpanded</tab>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>5.00</researchViewX>
+		<researchViewY>1.35</researchViewY>
+		<prerequisites>
+			<li>VFEM2_Alchemy</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_StoneskinDraught</defName>
+		<label>Stoneskin draught</label>
+		<description>Produce a deep, slate-gray liquid. When the user drinks it, their skin undergoes a dramatic transformation, thickening and hardening to resemble a built-in suit of armor. The entire epidermis becomes tough enough to resist burns, while jointed exterior keratin plates form over the body, including the head and face, providing additional protection. This formidable physical shield makes it extremely difficult to inflict physical harm on the user. However, the appearance of the plates and hardened skin significantly reduces the user's physical attractiveness, impacting their social interactions.</description>
+		<baseCost>500</baseCost>
+		<tab>VanillaExpanded</tab>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>6.00</researchViewX>
+		<researchViewY>1.35</researchViewY>
+		<prerequisites>
+			<li>VFEM2_Alchemy</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_AmnesiaDraught</defName>
+		<label>Amnesia draught</label>
+		<description>Produce a crystal-clear, white liquid. When the user drinks it, it causes them to rapidly lose their memory. This effect makes both negative and positive memories fade much quicker than normal, leading to a transient experience of life's events. While this can alleviate the burden of painful memories, it also diminishes the joy and learning gained from positive experiences.</description>
+		<baseCost>500</baseCost>
+		<tab>VanillaExpanded</tab>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>7.00</researchViewX>
+		<researchViewY>1.35</researchViewY>
+		<prerequisites>
+			<li>VFEM2_Alchemy</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_ComaDraught</defName>
+		<label>Coma draught</label>
+		<description>Produce a deep indigo liquid. When the user drinks it, it induces a chemically controlled coma, significantly slowing down their metabolism. This state allows the body to conserve energy and potentially aid in healing processes under controlled conditions.</description>
+		<baseCost>500</baseCost>
+		<tab>VanillaExpanded</tab>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>3.00</researchViewX>
+		<researchViewY>1.90</researchViewY>
+		<prerequisites>
+			<li>VFEM2_Alchemy</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_PoisonDraught</defName>
+		<label>Poison draught</label>
+		<description>Produce a dark, ominous green liquid. When consumed, it drastically reduces the user's consciousness, inducing a chemically forced coma. This state not only incapacitates the individual but also initiates a rapid decay of their organs. The effects of this draught are severe and irreversible, leading inevitably to death.</description>
+		<baseCost>500</baseCost>
+		<tab>VanillaExpanded</tab>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>4.00</researchViewX>
+		<researchViewY>1.90</researchViewY>
+		<prerequisites>
+			<li>VFEM2_Alchemy</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_AntitoxDraught</defName>
+		<label>Antitox draught</label>
+		<description>Produce a clear, vibrant teal liquid. When the user drinks it, it enhances their resistance to toxins, fortifying their body against harmful substances. Additionally, this draught actively works to remove any existing toxic buildup within the user’s system, purifying their body and preventing the detrimental effects of toxins.</description>
+		<baseCost>500</baseCost>
+		<tab>VanillaExpanded</tab>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>5.00</researchViewX>
+		<researchViewY>1.90</researchViewY>
+		<prerequisites>
+			<li>VFEM2_Alchemy</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef MayRequire="Ludeon.RimWorld.Royalty">
+		<defName>Ferny_ClarityDraught</defName>
+		<label>Clarity draught</label>
+		<description>Produce a light blue liquid that’s sparkling with a subtle effervescence. When the user drinks it, it restores some of their psychic focus and enhances their psychic sensitivity, allowing for clearer mental processing and heightened awareness. However, this increased mental activity significantly raises the user's hunger rate, making them need to eat more often. Additionally, the relentless mental buzz from the draught leads to a noticeable drop in mood due to the overwhelming flow of thoughts.</description>
+		<baseCost>500</baseCost>
+		<tab>VanillaExpanded</tab>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>6.00</researchViewX>
+		<researchViewY>1.90</researchViewY>
+		<prerequisites>
+			<li>VFEM2_Alchemy</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef MayRequire="Ludeon.RimWorld.Biotech">
+		<defName>Ferny_HemogenDraught</defName>
+		<label>Hemogen draught</label>
+		<description>Produce a rich, crimson liquid crafted from concentrated hemogen packs. When the user drinks it, it enhances all traits and abilities tied to their hemogenic nature, boosting physical and mental capacities. Additionally, this draught replenishes the user's hemogen supply over time, maintaining their vitality and enhancing their overall function.</description>
+		<baseCost>500</baseCost>
+		<tab>VanillaExpanded</tab>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>7.00</researchViewX>
+		<researchViewY>1.90</researchViewY>
+		<prerequisites>
+			<li>VFEM2_Alchemy</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef MayRequire="OskarPotocki.VFE.Insectoid2">
+		<defName>Ferny_RoyalJellyDraught</defName>
+		<label>Royal jelly draught</label>
+		<description>Produce a shimmering golden liquid. When the user drinks it, it significantly improves their immunity gain speed, enhancing their body's natural defenses against diseases and infections. Additionally, this draught boosts the user's consciousness and movement speed, sharpening their mental alertness and enhancing their physical agility. Upon consumption, it also lowers the progress of any ongoing infections by 5%.</description>
+		<baseCost>500</baseCost>
+		<tab>VanillaExpanded</tab>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>8.00</researchViewX>
+		<researchViewY>1.90</researchViewY>
+		<prerequisites>
+			<li>VFEM2_Alchemy</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+</Defs>

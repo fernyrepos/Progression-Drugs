@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Dreg</defName>
+		<label>dreg</label>
+		<description>Produce toxic chemical derivatives made from corpse-bile that has been vaporized, crystallized, and crushed into small shards.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>25.00</researchViewX>
+		<researchViewY>11.00</researchViewY>
+		<prerequisites>
+			<li>DrugProduction</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Shiver</defName>
+		<label>shiver</label>
+		<description>Produce a volatile and noxious blend of industrial chemicals boiled down into a solid glass-like sheet and then crushed into small shards.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>26.00</researchViewX>
+		<researchViewY>11.00</researchViewY>
+		<prerequisites>
+			<li>DrugProduction</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+</Defs>

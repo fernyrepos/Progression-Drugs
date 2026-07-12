@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>Ferny_FeywingJoint</defName>
+		<label>feywing joint</label>
+		<description>Produce fey wings rolled up into a joint that imparts a powerful high and leaves the person with a feeling of deep serenity.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>25.00</researchViewX>
+		<researchViewY>9.00</researchViewY>
+		<prerequisites>
+			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Hunting</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_BeardWax</defName>
+		<label>beard wax</label>
+		<description>Produce a quality hair wax specially made for styling the prodigious hair of the stoneborn.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>26.00</researchViewX>
+		<researchViewY>9.00</researchViewY>
+		<prerequisites>
+			<li>DrugProduction</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_MinersDelight</defName>
+		<label>miner's delight</label>
+		<description>Produce a green and gold powder used by stoneborn quarry workers to enter a state of higher mental fortitude.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>27.00</researchViewX>
+		<researchViewY>9.00</researchViewY>
+		<prerequisites>
+			<li>DrugProduction</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Redspice</defName>
+		<label>redspice</label>
+		<description>Produce a spicy red powder made by grinding up bull horns, useful for removing the nauseating effects of hangovers.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>28.00</researchViewX>
+		<researchViewY>9.00</researchViewY>
+		<prerequisites>
+			<li>DrugProduction</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+</Defs>

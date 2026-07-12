@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>Ferny_ScarletScent</defName>
+		<label>scarlet scent</label>
+		<description>Produce a red mixture of larpah antler bone marrow and herbs that drastically increases abilities and strength.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>25.00</researchViewX>
+		<researchViewY>5.00</researchViewY>
+		<prerequisites>
+			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Hunting</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+</Defs>

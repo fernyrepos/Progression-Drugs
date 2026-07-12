@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Clozapine</defName>
+		<label>clozapine</label>
+		<tab>MP_MedicinesPlus</tab>
+		<description>Produce clozapine, a common antipsychotic medicine used to treat bipolar disorder and other mental conditions. It can help prevent some pawns from fully acting out impulsive behavior and extreme mental breaks. Large doses may cause vomiting.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>MP_BaseResearch</li>
+		</prerequisites>
+		<researchViewY>0</researchViewY>
+		<researchViewX>2</researchViewX>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Morphine</defName>
+		<label>morphine</label>
+		<tab>MP_MedicinesPlus</tab>
+		<description>Produce morphine, a derivative of opium poppy latex. This much stronger opioid also acts as a powerful painkiller, usually lasting 2 to 3 hours.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>MP_BaseResearch</li>
+		</prerequisites>
+		<researchViewY>1</researchViewY>
+		<researchViewX>2</researchViewX>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Penicillin</defName>
+		<label>penicillin</label>
+		<tab>MP_MedicinesPlus</tab>
+		<description>Produce penicillin, one of the earliest effective medications for treating bacterial infections. Take once per day for maximum effect.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>MP_BaseResearch</li>
+		</prerequisites>
+		<researchViewY>2</researchViewY>
+		<researchViewX>2</researchViewX>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_ThornweedSerum</defName>
+		<label>thornweed serum</label>
+		<tab>MP_MedicinesPlus</tab>
+		<description>Produce thornweed serum, the active numbing chemical found within thornweed needles, refined into a much more potent serum with fewer unwanted side effects.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>MP_CrimsonBulbRefinement</li>
+			<li>MP_BasicUtilityMedicine</li>
+		</prerequisites>
+		<researchViewY>0</researchViewY>
+		<researchViewX>4</researchViewX>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Tyrox</defName>
+		<label>tyrox</label>
+		<tab>MP_MedicinesPlus</tab>
+		<description>Produce tyrox, a medicine that vastly boosts the metabolism and therefore the immune response of any lifeform that injects it. Take once per day for maximum effect.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>MP_CrimsonBulbRefinement</li>
+			<li>MP_BasicUtilityMedicine</li>
+		</prerequisites>
+		<researchViewY>2</researchViewY>
+		<researchViewX>4</researchViewX>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Heroin</defName>
+		<label>heroin</label>
+		<tab>MP_MedicinesPlus</tab>
+		<description>Produce heroin, a more potent and highly addictive morphine variant that delivers intense euphoria and heavy sedation. It usually lasts 4 to 5 hours and is extremely addictive.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>MP_CrimsonBulbRefinement</li>
+			<li>MP_BasicCashCrops</li>
+		</prerequisites>
+		<researchViewY>3</researchViewY>
+		<researchViewX>4</researchViewX>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Joy</defName>
+		<label>joy</label>
+		<tab>MP_MedicinesPlus</tab>
+		<description>Produce joy, a drug developed by Urbworld governments to keep their citizens in check. It produces a strong euphoric high and is very addictive.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>MP_CrimsonBulbRefinement</li>
+			<li>MP_BasicCashCrops</li>
+		</prerequisites>
+		<researchViewY>4</researchViewY>
+		<researchViewX>4</researchViewX>
+	</ResearchProjectDef>
+
+</Defs>
