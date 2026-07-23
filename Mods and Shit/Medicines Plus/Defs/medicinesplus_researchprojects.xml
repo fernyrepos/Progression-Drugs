@@ -103,4 +103,62 @@
 		<researchViewX>4</researchViewX>
 	</ResearchProjectDef>
 
+
+	<ResearchProjectDef>
+		<defName>Ferny_SmellingSalts</defName>
+		<label>smelling salts</label>
+		<tab>MP_MedicinesPlus</tab>
+		<description>Produce smelling salts, also known as ammonia salts. They stimulate a creature's respiratory system by causing a reflex response to very small amounts of ammonia gas.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>DrugProduction</li>
+		</prerequisites>
+		<researchViewY>5</researchViewY>
+		<researchViewX>2</researchViewX>
+	</ResearchProjectDef>
+
+
+	<ResearchProjectDef>
+		<defName>Ferny_ThornweedInfusion</defName>
+		<label>thornweed infusion</label>
+		<tab>MP_MedicinesPlus</tab>
+		<description>Produce thornweed infusion by processing raw thorns into thornweed needles.</description>
+		<baseCost>300</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>DrugProduction</li>
+		</prerequisites>
+		<researchViewY>6</researchViewY>
+		<researchViewX>2</researchViewX>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_PeyoteInfusion</defName>
+		<label>peyote infusion</label>
+		<tab>MP_MedicinesPlus</tab>
+		<description>Produce peyote infusion by processing raw peyote into a psychoactive drug.</description>
+		<baseCost>300</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>DrugProduction</li>
+		</prerequisites>
+		<researchViewY>7</researchViewY>
+		<researchViewX>2</researchViewX>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_OpiumInfusion</defName>
+		<label>opium infusion</label>
+		<tab>MP_MedicinesPlus</tab>
+		<description>Produce opium infusion by processing raw opium into a usable drug ingredient.</description>
+		<baseCost>300</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>DrugProduction</li>
+		</prerequisites>
+		<researchViewY>8</researchViewY>
+		<researchViewX>2</researchViewX>
+	</ResearchProjectDef>
+
 </Defs>

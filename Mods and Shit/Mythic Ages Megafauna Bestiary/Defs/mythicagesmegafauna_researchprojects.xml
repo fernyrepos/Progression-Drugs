@@ -40,4 +40,59 @@
 		</prerequisites>
 	</ResearchProjectDef>
 
+
+	<ResearchProjectDef>
+		<defName>Ferny_ScarodonHeartPotion</defName>
+		<label>Scarodon heart potion</label>
+		<description>Brew scarodon heart slices with medicinal herbs into a stable battle potion.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>28.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<prerequisites>
+			<li MayRequire="dankpyon.medieval.overhaul">DankPyon_Alchemy</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_HellboarLiverPotion</defName>
+		<label>Hellboar liver potion</label>
+		<description>Brew hellboar liver slices with medicinal herbs into a stable purging potion.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>29.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<prerequisites>
+			<li MayRequire="dankpyon.medieval.overhaul">DankPyon_Alchemy</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_SivaDustIvoryPotion</defName>
+		<label>Sivadust ivory potion</label>
+		<description>Brew SivaDust Ivory with medicinal herbs into a stable calming potion.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>30.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<prerequisites>
+			<li>Ferny_SivaDustIvory</li>
+			<li MayRequire="dankpyon.medieval.overhaul">DankPyon_Alchemy</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+
+	<ResearchProjectDef>
+		<defName>Ferny_AmineSerum</defName>
+		<label>Amine serum</label>
+		<description>Refine amino-rich milk produced by the Aminox into a concentrated serum that suppresses pain and stimulates circulation.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>31.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<prerequisites>
+			<li MayRequire="dankpyon.medieval.overhaul">DankPyon_Alchemy</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
 </Defs>

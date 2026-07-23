@@ -8,4 +8,21 @@
     </value>
 </Operation>
 
+
+<Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="SmokeleafJoint"]/recipeMaker/researchPrerequisite</xpath>
+    <match Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="SmokeleafJoint"]/recipeMaker/researchPrerequisite</xpath>
+        <value>
+            <researchPrerequisite>Ferny_SmokeleafJoint</researchPrerequisite>
+        </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="SmokeleafJoint"]/recipeMaker</xpath>
+        <value>
+            <researchPrerequisite>Ferny_SmokeleafJoint</researchPrerequisite>
+        </value>
+    </nomatch>
+</Operation>
+
 </Patch>
