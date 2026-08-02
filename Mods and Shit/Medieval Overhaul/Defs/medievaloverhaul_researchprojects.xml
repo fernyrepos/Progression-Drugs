@@ -48,6 +48,9 @@
 		<techLevel>Medieval</techLevel>
 		<researchViewX>28.00</researchViewX>
 		<researchViewY>15.00</researchViewY>
+		<prerequisites>
+			<li>DankPyon_Alchemy</li>
+		</prerequisites>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
