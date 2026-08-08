@@ -237,7 +237,7 @@
 		<match Class="PatchOperationReplace">
 			<xpath>/Defs/RecipeDef[defName="DankPyon_Make_HerbalExtract"]/researchPrerequisites</xpath>
 			<value>
-				<researchPrerequisites>
+				<researchPrerequisites Inherit="false">
 					<li>Ferny_HerbalExtract</li>
 				</researchPrerequisites>
 			</value>
@@ -245,7 +245,7 @@
 		<nomatch Class="PatchOperationAdd">
 			<xpath>/Defs/RecipeDef[defName="DankPyon_Make_HerbalExtract"]</xpath>
 			<value>
-				<researchPrerequisites>
+				<researchPrerequisites Inherit="false">
 					<li>Ferny_HerbalExtract</li>
 				</researchPrerequisites>
 			</value>
@@ -257,7 +257,7 @@
 		<match Class="PatchOperationReplace">
 			<xpath>/Defs/RecipeDef[defName="DankPyon_Make_HerbalExtractBulk"]/researchPrerequisites</xpath>
 			<value>
-				<researchPrerequisites>
+				<researchPrerequisites Inherit="false">
 					<li>Ferny_HerbalExtract</li>
 				</researchPrerequisites>
 			</value>
@@ -265,7 +265,7 @@
 		<nomatch Class="PatchOperationAdd">
 			<xpath>/Defs/RecipeDef[defName="DankPyon_Make_HerbalExtractBulk"]</xpath>
 			<value>
-				<researchPrerequisites>
+				<researchPrerequisites Inherit="false">
 					<li>Ferny_HerbalExtract</li>
 				</researchPrerequisites>
 			</value>
@@ -277,7 +277,7 @@
 		<match Class="PatchOperationReplace">
 			<xpath>/Defs/RecipeDef[defName="DankPyon_Make_HerbalExtractBulkExtra"]/researchPrerequisites</xpath>
 			<value>
-				<researchPrerequisites>
+				<researchPrerequisites Inherit="false">
 					<li>Ferny_HerbalExtract</li>
 				</researchPrerequisites>
 			</value>
@@ -285,7 +285,7 @@
 		<nomatch Class="PatchOperationAdd">
 			<xpath>/Defs/RecipeDef[defName="DankPyon_Make_HerbalExtractBulkExtra"]</xpath>
 			<value>
-				<researchPrerequisites>
+				<researchPrerequisites Inherit="false">
 					<li>Ferny_HerbalExtract</li>
 				</researchPrerequisites>
 			</value>
