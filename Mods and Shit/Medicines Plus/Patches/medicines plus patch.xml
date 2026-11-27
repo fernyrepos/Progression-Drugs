@@ -99,6 +99,17 @@
   </match>
 </Operation>
 
+  <!-- Harvest raw opium from Medieval Overhaul poppies when it is available -->
+<Operation Class="PatchOperationConditional">
+  <xpath>/Defs/ThingDef[defName="DankPyon_Plant_Poppy" and /Defs/ThingDef[defName="Raw_Opium"]]/plant/harvestedThingDef</xpath>
+  <match Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="DankPyon_Plant_Poppy"]/plant/harvestedThingDef</xpath>
+    <value>
+      <harvestedThingDef>Raw_Opium</harvestedThingDef>
+    </value>
+  </match>
+</Operation>
+
 <Operation Class="PatchOperationFindMod">
   <mods>
     <li>Medieval Overhaul</li>
